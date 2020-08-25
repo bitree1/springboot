@@ -1,0 +1,2 @@
+logging.file.path="M:/zoe/logs/msb.logs"
+server.port=80

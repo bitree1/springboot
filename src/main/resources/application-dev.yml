@@ -1,0 +1,19 @@
+server:
+  port: 8000
+  servlet:
+    encoding:
+      charset: utf-8
+    context-path: /
+    #上下文
+debug: false
+spring:
+  mvc:
+    format:
+      date: yyyy-MM-dd
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name:org.postgresql.Driver
+    url:jdbc:postgresql://192.168.1.10:5432/springboot
+    data-username:postgres
+    data-password:postgres
